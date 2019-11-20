@@ -21,4 +21,4 @@ jobs:
         pod repo update
         pod install
     - name: Build
-      run: xcodebuild -workspace mapcache-ios.xcworkspace -scheme mapcache-ios
+      run: xcodebuild -workspace mapcache-ios.xcworkspace -scheme mapcache-ios -allowProvisioningUpdates
