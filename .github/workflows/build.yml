@@ -1,0 +1,24 @@
+  
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  
+  build:
+
+    runs-on: macOS-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v1
+    - name: Install Utilities
+      run: |
+        brew install automake
+        brew install libtool
+    - name: Install
+      run: |
+        pod repo update
+        pod install
+    - name: Build
+      run: xcodebuild -workspace mapcache-ios.xcworkspace -scheme mapcache-ios
