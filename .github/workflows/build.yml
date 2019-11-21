@@ -21,7 +21,7 @@ jobs:
         pod repo update
         pod install
     - name: Build
-      run: xcodebuild -workspace mapcache-ios.xcworkspace -scheme mapcache-ios -configuration Release -allowProvisioningUpdates -archivePath buildArchive/MapCache.xcarchive archive
+      run: xcodebuild -workspace mapcache-ios.xcworkspace -scheme mapcache-ios -allowProvisioningUpdates -configuration AppStoreDistribution archive -archivePath buildArchive/MapCache.xcarchive
     - name: Upload Artifacts
       uses: actions/upload-artifact@v1
       with:
