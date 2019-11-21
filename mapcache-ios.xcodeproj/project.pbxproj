@@ -907,7 +907,7 @@
 				TargetAttributes = {
 					0401366E1AF94FB200C92AFC = {
 						CreatedOnToolsVersion = 6.3.1;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = ZL8G5D9G2H;
 					};
 					0401368A1AF94FB200C92AFC = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -1278,18 +1278,16 @@
 			baseConfigurationReference = C87B7FD45C393DE7D862CA13 /* Pods-mapcache-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 28;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZL8G5D9G2H;
 				INFOPLIST_FILE = "mapcache-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mil.nga.mapcache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1299,18 +1297,16 @@
 			baseConfigurationReference = 317A64B2FA9FC9C408272041 /* Pods-mapcache-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 28;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZL8G5D9G2H;
 				INFOPLIST_FILE = "mapcache-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mil.nga.mapcache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
